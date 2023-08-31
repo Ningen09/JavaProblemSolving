@@ -1,0 +1,17 @@
+package yanghj;
+
+import java.util.Scanner;
+
+public class ex_1 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("년도를 입력해 주세요 >>>");
+		int year = scanner.nextInt();
+		
+		if (year >= 1 && year <= 4000) {
+			if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) System.out.println("1");
+			else System.out.println("0"); 
+		} 
+	}
+}

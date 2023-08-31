@@ -2,7 +2,7 @@ package easyhoon;
 
 import java.util.Scanner;
 
-public class 윤달 {
+public class 윤년 {
    public static void main(String[] args) {
       
       Scanner scanner = new Scanner(System.in);
