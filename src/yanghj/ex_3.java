@@ -19,6 +19,6 @@ public class ex_3 {
 		
 		if (m < n) {
 			System.out.println("페이지의 수는 : " + (int)c); 
-		} else System.out.println("페이지의 수는 : " + (int)f);
+		} else System.out.println("페이지의 수는 : " + (int)f); 
 	}
 }
